@@ -1,0 +1,12 @@
+.container5{
+    justify-content: space-between;
+}
+
+.progress{
+    margin-left: 50px;
+}
+
+.completed{
+    margin-left: 100px;
+    padding-left: 100px;
+}

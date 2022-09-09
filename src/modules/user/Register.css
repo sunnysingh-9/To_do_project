@@ -1,0 +1,35 @@
+.container1{
+    background-color: rgb(253, 249, 249);
+    border: 3px solid;
+    border-radius: 3px;
+    border-color: rgb(26, 24, 24);
+    padding: 50px;
+    height: 400px;
+    box-shadow: 5px 5px 2px rgb(56, 53, 53);
+    width: 300px;
+    margin-left: 565px;
+    
+}
+#register{
+    text-align: center;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    
+    text-decoration: none;
+    
+
+}
+.input li{
+    list-style: none;
+    text-decoration: none;
+    font-size: larger;
+    
+}
+
+
+button:hover{
+    background-color: rgb(215, 178, 129);
+}

@@ -1,0 +1,40 @@
+.container2{
+    background-color: rgb(253, 249, 249);
+    border: 3px solid;
+    border-radius: 3px;
+    border-color: rgb(26, 24, 24);
+    padding: 50px;
+    height: 400px;
+    box-shadow: 5px 5px 2px rgb(56, 53, 53);
+    width: 300px;
+    align-items: center;
+    margin-left: 565px;
+}
+#login{
+    text-align: center;
+    align-items: center;
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    
+
+}
+.input1 li{
+    list-style: none;
+    text-decoration: none;
+    font-size: larger;
+}
+button{
+    align-items: center;
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(215, 178, 129);
+}
+.form{
+    align-items: center;
+    justify-content: center;
+}  

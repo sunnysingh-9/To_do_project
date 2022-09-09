@@ -1,0 +1,97 @@
+.main-nav{
+    background-color: rgb(67, 151, 182);
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8rem 1fr 2fr 1fr 8rem;
+}
+
+.logo{
+    display: grid;
+    grid-column: 2/3;
+    align-items: center;
+    justify-content: start;
+    font-style: oblique;
+    text-shadow: 1cm;
+    text-shadow: 2px 2px 2px rgb(80, 70, 70);
+}
+
+.nav-menu{
+    display: flex;
+    grid-column: 3/4;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-menu ul{
+    display: flex;
+}
+
+.nav-menu li{
+    font-size: larger;
+    font-weight: 700;
+    list-style: none;
+    padding: 0 20px;
+    /* height: 50px; */
+    position: relative;   
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: rgb(230, 218, 218);
+    transition: 0.3s ease-in-out;
+}
+.nav-menu li a:hover{
+    color: #000;
+} 
+
+.signin{
+    color: blueviolet;
+    grid-column: 4/5;
+}
+
+.signin ul{
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.signin ul li{
+    text-align: right;
+    
+}
+
+.signin ul li:first-child{
+    grid-column: 2/3;
+}
+
+#log-in{
+    height: 30px;
+    width: 75px;
+    color: antiquewhite;
+    background-color: blueviolet;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+#sign-in{
+    height: 30px;
+    width: 75px;
+    color: antiquewhite;
+    background-color: blueviolet;
+    border: 1px solid;
+    border-radius: 5px;
+    
+}
+
+#log-in:hover{
+    background-color: rgb(47, 47, 60);
+}
+
+#sign-in:hover{
+    background-color: rgb(47, 47, 60);
+}
